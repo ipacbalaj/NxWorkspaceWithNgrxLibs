@@ -364,6 +364,37 @@
           "styleext": "scss"
         }
       }
+    },
+    "app2-libs-lib-y": {
+      "projectType": "library",
+      "root": "libs/app2-libs/lib-y",
+      "sourceRoot": "libs/app2-libs/lib-y/src",
+      "prefix": "exampleworkspace",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/app2-libs/lib-y/tsconfig.lib.json",
+              "libs/app2-libs/lib-y/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/app2-libs/lib-y/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/app2-libs/lib-y/jest.config.js",
+            "tsConfig": "libs/app2-libs/lib-y/tsconfig.spec.json",
+            "setupFile": "libs/app2-libs/lib-y/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {
+        "@nrwl/angular:component": {
+          "styleext": "scss"
+        }
+      }
     }
   },
   "cli": {

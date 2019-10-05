@@ -31,6 +31,9 @@
     },
     "shared-libs-lib-w": {
       "tags": []
+    },
+    "app2-libs-lib-y": {
+      "tags": []
     }
   }
 }

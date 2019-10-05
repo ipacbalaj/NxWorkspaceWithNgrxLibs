@@ -27,7 +27,8 @@
       ],
       "@exampleworkspace/shared-libs/lib-w": [
         "libs/shared-libs/lib-w/src/index.ts"
-      ]
+      ],
+      "@exampleworkspace/app2-libs/lib-y": ["libs/app2-libs/lib-y/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
