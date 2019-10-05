@@ -19,6 +19,12 @@
     },
     "app2": {
       "tags": []
+    },
+    "app1-libs-lib-a": {
+      "tags": []
+    },
+    "app1-libs-lib-x": {
+      "tags": []
     }
   }
 }
