@@ -25,6 +25,12 @@
     },
     "app1-libs-lib-x": {
       "tags": []
+    },
+    "shared-libs-lib-z": {
+      "tags": []
+    },
+    "shared-libs-lib-w": {
+      "tags": []
     }
   }
 }

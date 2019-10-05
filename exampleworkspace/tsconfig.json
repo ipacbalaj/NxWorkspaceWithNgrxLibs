@@ -19,7 +19,15 @@
       "@exampleworkspace/app1-libs/lib-a": [
         "libs/app1-libs/lib-a/src/index.ts"
       ],
-      "@exampleworkspace/app1-libs/lib-x": ["libs/app1-libs/lib-x/src/index.ts"]
+      "@exampleworkspace/app1-libs/lib-x": [
+        "libs/app1-libs/lib-x/src/index.ts"
+      ],
+      "@exampleworkspace/shared-libs/lib-z": [
+        "libs/shared-libs/lib-z/src/index.ts"
+      ],
+      "@exampleworkspace/shared-libs/lib-w": [
+        "libs/shared-libs/lib-w/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
