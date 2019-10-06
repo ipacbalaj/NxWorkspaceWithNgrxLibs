@@ -12,28 +12,28 @@
       "tags": []
     },
     "app1": {
-      "tags": []
+      "tags": ["app1"]
     },
     "app2-e2e": {
       "tags": []
     },
     "app2": {
-      "tags": []
+      "tags": ["app2"]
     },
     "app1-libs-lib-a": {
-      "tags": []
+      "tags": ["feature-app1"]
     },
     "app1-libs-lib-x": {
-      "tags": []
+      "tags": ["feature-app1"]
     },
     "shared-libs-lib-z": {
-      "tags": []
+      "tags": ["shared"]
     },
     "shared-libs-lib-w": {
-      "tags": []
+      "tags": ["shared"]
     },
     "app2-libs-lib-y": {
-      "tags": []
+      "tags": ["feature-app2"]
     }
   }
 }
